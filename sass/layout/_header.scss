@@ -1,0 +1,30 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, 
+    rgba($color-gradient-primary, 0.7), 
+    rgba($color-gradient-secondary, 0.6)), 
+    url(../img/gearbox.gif);
+    background-size: cover;
+    background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4.5rem;
+    }
+    &__logo {
+        height: 6rem;
+        transition: all .3s;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    &__text-box {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Aaron Pietsch | Front End Engineer</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="img/logo-white.png" alt="Aaron" class="header__logo">
+        </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Aaron Pietsch</span>
+                <span class="heading-primary--sub">Front End Engineer</span>
+            </h1>
+
+            <a href="#projects" class="btn btn--white btn--animated smooth-goto">See Projects</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Front End Focused
+                    <br>With Full Stack Experience
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-tertiary u-margin-bottom-small">Motivated To Produce Results</h3>
+                    <p class="paragraph">
+                        As a tenacious self-taught programmer, I use continuous iteration to produce results quickly and continuously improve products.
+                    </p>
+                    <h3 class="heading-tertiary u-margin-bottom-small">An Agile Collaborator</h3>
+                    <p class="paragraph">
+                        I have contributed to open source projects, worked on engineering teams, and always stay attuned to the newest frameworks.
+                    </p>
+
+                    <!-- <a href="#" class="btn-text">Full List &rarr;</a> -->
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <img src="img/javascript.png" alt="JS" class="composition__photo composition__photo--p3">
+                        <img src="img/node.png" alt="Node" class="composition__photo composition__photo--p1">
+                        <img src="img/react.png" alt="React" class="composition__photo composition__photo--p2">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-features">
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-webpage"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Front End</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3 | SASS</li>
+                                <li>JavaScript</li>
+                                <li>React | Redux</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-share"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Server</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>NodeJS</li>
+                                <li>Express</li>
+                                <li>Koa</li>
+                                <li>Python</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-server2"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Database</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>PostgreSQL</li>
+                                <li>mySQL</li>
+                                <li>MongoDB</li>
+                                <li>Cassandra</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-cloud"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Deployment</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>System Design</li>
+                                <li>AWS ECS | SQS</li>
+                                <li>Docker</li>
+                                <li>Git</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-tours" id="projects">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Project Portfolio
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-1">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <img src="img/gear.png" class="card__svg-icon spin" alt="">
+                            <h4 class="card__heading">
+
+                                <span class="card__heading-span--1">
+                                    Booking Microservice
+                                </span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>AWS SQS</li>
+                                    <li>Docker</li>
+                                    <li>NodeJS</li>
+                                    <li>Cassandra</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+
+                            <div class="card__cta">
+
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            A back-end booking system, handles 1500+ requests / sec
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- <a href="#" class="btn btn--white">Demo</a> -->
+                                <a href="https://github.com/aj-4/airbnb-booking-microsvc" class="btn btn--white btn--github">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-2">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <img src="img/fire.gif" class="card__svg-icon card__svg-icon-2" alt="">
+                            <div class="card__heading">
+                                <span class="card__heading-span--2">
+                                    Instalava Image App
+                                </span>
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>React | Redux</li>
+                                    <li>SemanticUI</li>
+                                    <li>Express | NodeJS</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            Instagram-inspired picture app with feed, profiles, followers
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- <a href="#" class="btn btn--white">Demo</a> -->
+                                <a href="#popup-2" class="btn btn--white btn--github">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-3">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <img src="img/money.gif" class="card__svg-icon card__svg-icon-3" alt="">
+                            <div class="card__heading">
+                                <span class="card__heading-span--3">
+                                    Paywall Payment App
+                                </span>
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>React | Redux</li>
+                                    <li>Socket.io</li>
+                                    <li>Express | NodeJS</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            Payment app with live messaging, notifications, friends list
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- <a href="#" class="btn btn--white">Demo</a> -->
+                                <a href="#popup-3" class="btn btn--white btn--github">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--second row-->
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-1">
+                                <div class="card__picture card__picture--4">
+                                    &nbsp;
+                                </div>
+                                <img src="img/avo.png" class="card__svg-icon card__svg-icon-4 floating" alt="">
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span--4">
+                                        Perfect Plate
+                                    </span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>React</li>
+                                        <li>CSS | SASS</li>
+                                        <li>Express | NodeJS</li>
+                                        <li>mySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-4">
+                                <div class="card__cta">
+                                    <div class="card__box">
+                                        <div class="card__description">
+                                            <p>
+                                                Data populated and cached with REST API calls to USDA database
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn--white">Demo</a> -->
+                                    <a href="#popup-4" class="btn btn--white btn--github">DEMO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-2">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    <span class="card__heading-span--2">
+                                        Instalava Image App
+                                    </span>
+                                </div>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>React | Redux</li>
+                                        <li>SemanticUI</li>
+                                        <li>Express | NodeJS</li>
+                                        <li>PostgreSQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__box">
+                                        <div class="card__description">
+                                            <p>
+                                                Instagram-inspired picture app with feed, profiles, followers
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="https://github.com/aj-4/airbnb-booking-microsvc" class="btn btn--white btn--github">Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-3">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    <span class="card__heading-span--3">
+                                        Paywall Payment App
+                                    </span>
+                                </div>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>React | Redux</li>
+                                        <li>Socket.io</li>
+                                        <li>Express | NodeJS</li>
+                                        <li>PostgreSQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__box">
+                                        <div class="card__description">
+                                            <p>
+                                                Payment app with live messaging, notifications, friends list
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="https://github.com/aj-4/airbnb-booking-microsvc" class="btn btn--white btn--github">Demo</a>
+                                </div>
+                            </div>
+                        </div> -->
+
+        </section>
+    </main>
+
+    <!--
+    <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">
+                Col 1 of 2
+            </div>
+            <div class="col-1-of-2">
+                Col 1 of 2
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                Col 1 of 3
+            </div>
+            <div class="col-2-of-3">
+                Col 2 of 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2-of-4">
+                Col 2 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3-of-4">
+                Col 3 of 4
+            </div>
+            <div class="col-1-of-4">
+                Col 1 of 4
+            </div>
+        </div>
+    </section>
+-->
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <a href="#top">
+                <img src="img/logo-white.png" alt="Logo" class="footer__logo smooth-goto">
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="https://github.com/aj-4/" class="footer__link">GitHub</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="https://www.linkedin.com/in/apietsch/" class="footer__link">LinkedIn</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Site by
+                    <a href=# class="footer__link"> Aaron Pietsch </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="popup-2">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/il_demo.gif" alt="Instalava Demo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-2">Instalava</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, Express, PostgreSQL</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Live feed, profile pages, followers.
+                    </p>
+                </div>
+                <a href="https://github.com/aj-4/lawa-ig" class="btn popup__btn-2">Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-3">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/pw_demo.gif" alt="Paywaal Demo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-3">Paywaal</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Socket.io</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Chat, notifications, add friends. Live.
+                    </p>
+                </div>
+                <a href="https://github.com/aj-4/hrpaymo" class="btn popup__btn-3">Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-4">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/pp_demo.gif" alt="Perfect Plate Demo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-4">Perfect Plate</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">React, CSS, Express</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                        Instant nutrition info for any food. Create plates.
+                    </p>
+                </div>
+                <a href="https://github.com/aj-4/perfect-plate" class="btn popup__btn-4">Source Code</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $('.smooth-goto').on('click', function () {
+        $('html, body').animate({
+            scrollTop: $(this.hash).offset().top + 50
+        }, 1000);
+        return
+        false;
+    });
+</script>
+
+</html>

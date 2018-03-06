@@ -1,0 +1,25 @@
+.section-about {
+    background-color: $color-grey-light-1;
+    padding: 20rem;
+    margin-top: -25vh;
+    margin-bottom: 10vh;
+}
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom, rgba($color-gradient-secondary, 0.75), rgba($color-gradient-primary, 0.75)),
+    url(../img/rein.gif);
+    background-size: cover;
+    margin-top: -20rem;
+    transform: skewY(-5deg);
+
+    & > * {
+        transform: skewY(5deg);
+    }
+}
+
+.section-tours {
+    margin-top: -20rem;
+    background-color: $color-grey-light-1;
+    padding-top: 25rem;
+}

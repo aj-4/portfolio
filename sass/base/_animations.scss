@@ -1,0 +1,91 @@
+@keyframes leftIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-5rem);
+    }
+    80% {
+        transform: translateX(0.5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes rightIn {
+    0% {
+        opacity: 0;
+        transform: translateX(5rem);
+    }
+    80% {
+        transform: translateX(-0.5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes bottomIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+    80% {
+        transform: translateY(0.5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.floating {
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@-webkit-keyframes Floatingx {
+    from {
+        -webkit-transform: translate(0, 0px);
+    }
+    65% {
+        -webkit-transform: translate(0, 5px);
+    }
+    to {
+        -webkit-transform: translate(0, -0px);
+    }
+}
+
+@-moz-keyframes Floating {
+    from {
+        -moz-transform: translate(0, 0px);
+    }
+    65% {
+        -moz-transform: translate(0, 5px);
+    }
+    to {
+        -moz-transform: translate(0, -0px);
+    }
+}
+
+.spin {
+    animation: App-logo-spin infinite 10s linear;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

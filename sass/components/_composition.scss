@@ -8,20 +8,43 @@
         z-index: 10;
         transition: all .2s;
         position: absolute;
+
+        @include respond(tab-port) {
+            float: left;
+            position: relative;
+            width: 28.333333%;
+        }
         
         &--p1 {
             left: 0;
             top: -1rem;
+
+            @include respond(tab-port) {
+                top: 0;
+            }
         }
 
         &--p2 {
             right: 5%;
             top: 2rem;
+
+            @include respond(tab-port) {
+                top: 0;
+                right: 0;
+                z-index: 100;
+            }
         }
 
         &--p3 {
+            width: 45%;
             left: 20%;
             top: 10rem;
+
+            @include respond(tab-port) {
+                top: 0;
+                left: 0;
+                width: 28%;            
+            }
         }
 
         &:hover {

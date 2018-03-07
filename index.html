@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="img/gearbox-static.png" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/icon-font.css">
@@ -12,6 +13,11 @@
 </head>
 
 <body>
+    <!-- preload -->
+    <div class="header-img">
+        <img style="display: none;" src="img/gearbox.gif" alt="">
+    </div>
+
     <header class="header">
         <div class="header__logo-box">
             <img src="img/logo-white.png" alt="Aaron" class="header__logo">
@@ -46,12 +52,11 @@
                         I have contributed to open source projects, worked on engineering teams, and always stay attuned to the newest frameworks.
                     </p>
 
-                    <!-- <a href="#" class="btn-text">Full List &rarr;</a> -->
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
-                        <img src="img/javascript.png" alt="JS" class="composition__photo composition__photo--p3">
-                        <img src="img/node.png" alt="Node" class="composition__photo composition__photo--p1">
+                        <img src="img/javascript.png" alt="JS" class="composition__photo composition__photo--p1">
+                        <img src="img/nodejs.png" alt="Node" class="composition__photo composition__photo--p3">
                         <img src="img/react.png" alt="React" class="composition__photo composition__photo--p2">
                     </div>
                 </div>
@@ -160,7 +165,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <!-- <a href="#" class="btn btn--white">Demo</a> -->
                                 <a href="https://github.com/aj-4/airbnb-booking-microsvc" class="btn btn--white btn--github">Source Code</a>
                             </div>
                         </div>
@@ -196,7 +200,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <!-- <a href="#" class="btn btn--white">Demo</a> -->
                                 <a href="#popup-2" class="btn btn--white btn--github">Demo</a>
                             </div>
                         </div>
@@ -232,7 +235,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <!-- <a href="#" class="btn btn--white">Demo</a> -->
                                 <a href="#popup-3" class="btn btn--white btn--github">Demo</a>
                             </div>
                         </div>
@@ -242,9 +244,9 @@
 
                 <!--second row-->
                 <div class="row">
-                    <div class="col-1-of-3">
+                    <div class="col-1-of-3 single-col">
                         <div class="card">
-                            <div class="card__side card__side--front card__side--front-1">
+                            <div class="card__side card__side--front card__side--front-4">
                                 <div class="card__picture card__picture--4">
                                     &nbsp;
                                 </div>
@@ -272,152 +274,13 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <!-- <a href="#" class="btn btn--white">Demo</a> -->
                                     <a href="#popup-4" class="btn btn--white btn--github">DEMO</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front card__side--front-2">
-                                <div class="card__picture card__picture--2">
-                                    &nbsp;
-                                </div>
-                                <div class="card__heading">
-                                    <span class="card__heading-span--2">
-                                        Instalava Image App
-                                    </span>
-                                </div>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>React | Redux</li>
-                                        <li>SemanticUI</li>
-                                        <li>Express | NodeJS</li>
-                                        <li>PostgreSQL</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card__side card__side--back card__side--back-2">
-                                <div class="card__cta">
-                                    <div class="card__box">
-                                        <div class="card__description">
-                                            <p>
-                                                Instagram-inspired picture app with feed, profiles, followers
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <a href="https://github.com/aj-4/airbnb-booking-microsvc" class="btn btn--white btn--github">Demo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front card__side--front-3">
-                                <div class="card__picture card__picture--3">
-                                    &nbsp;
-                                </div>
-                                <div class="card__heading">
-                                    <span class="card__heading-span--3">
-                                        Paywall Payment App
-                                    </span>
-                                </div>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>React | Redux</li>
-                                        <li>Socket.io</li>
-                                        <li>Express | NodeJS</li>
-                                        <li>PostgreSQL</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card__side card__side--back card__side--back-3">
-                                <div class="card__cta">
-                                    <div class="card__box">
-                                        <div class="card__description">
-                                            <p>
-                                                Payment app with live messaging, notifications, friends list
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <a href="https://github.com/aj-4/airbnb-booking-microsvc" class="btn btn--white btn--github">Demo</a>
-                                </div>
-                            </div>
-                        </div> -->
-
         </section>
     </main>
-
-    <!--
-    <section class="grid-test">
-        <div class="row">
-            <div class="col-1-of-2">
-                Col 1 of 2
-            </div>
-            <div class="col-1-of-2">
-                Col 1 of 2
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-1-of-3">
-                Col 1 of 3
-            </div>
-            <div class="col-1-of-3">
-                Col 1 of 3
-            </div>
-            <div class="col-1-of-3">
-                Col 1 of 3
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-1-of-3">
-                Col 1 of 3
-            </div>
-            <div class="col-2-of-3">
-                Col 2 of 3
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-1-of-4">
-                Col 1 of 4
-            </div>
-            <div class="col-1-of-4">
-                Col 1 of 4
-            </div>
-            <div class="col-1-of-4">
-                Col 1 of 4
-            </div>
-            <div class="col-1-of-4">
-                Col 1 of 4
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-2-of-4">
-                Col 2 of 4
-            </div>
-            <div class="col-1-of-4">
-                Col 1 of 4
-            </div>
-            <div class="col-1-of-4">
-                Col 1 of 4
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-3-of-4">
-                Col 3 of 4
-            </div>
-            <div class="col-1-of-4">
-                Col 1 of 4
-            </div>
-        </div>
-    </section>
--->
 
     <footer class="footer">
         <div class="footer__logo-box">
@@ -453,7 +316,7 @@
     <div class="popup" id="popup-2">
         <div class="popup__content">
             <div class="popup__left">
-                <img src="img/il_demo.gif" alt="Instalava Demo" class="popup__img">
+                <a href="#projects"><img src="img/il_demo.gif" alt="Instalava Demo" class="popup__img"></a>
             </div>
             <div class="popup__right">
                 <a href="#section-tours" class="popup__close">&times;</a>
@@ -472,7 +335,7 @@
     <div class="popup" id="popup-3">
         <div class="popup__content">
             <div class="popup__left">
-                <img src="img/pw_demo.gif" alt="Paywaal Demo" class="popup__img">
+                <a href="#projects"><img src="img/pw_demo.gif" alt="Paywaal Demo" class="popup__img"></a>
             </div>
             <div class="popup__right">
                 <a href="#section-tours" class="popup__close">&times;</a>
@@ -491,7 +354,7 @@
     <div class="popup" id="popup-4">
         <div class="popup__content">
             <div class="popup__left">
-                <img src="img/pp_demo.gif" alt="Perfect Plate Demo" class="popup__img">
+                <a href="#projects"><img src="img/pp_demo.gif" alt="Perfect Plate Demo" class="popup__img"></a>
             </div>
             <div class="popup__right">
                 <a href="#section-tours" class="popup__close">&times;</a>
@@ -513,12 +376,14 @@
 
 <script>
     $('.smooth-goto').on('click', function () {
-        $('html, body').animate({
-            scrollTop: $(this.hash).offset().top + 50
-        }, 1000);
-        return
-        false;
-    });
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top + 50
+            }, 1000);
+        });
+
+    $(document).ready(function(){
+        $('.popup__img').css('visibility', 'visible');        
+    })
 </script>
 
 </html>

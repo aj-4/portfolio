@@ -1,7 +1,7 @@
 .heading-primary {
     color: $color-white;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     &--main {
         @include respond(phone) {
             letter-spacing: 1rem;
@@ -9,20 +9,20 @@
         }
         line-height: 1.3;
         display: block;
-        font-size: 5rem;
+        font-size: 6.5rem;
         font-weight: 400;
         letter-spacing: 0.6rem;
         animation: leftIn 0.75s ease-out;
-        /* backface-visibility: hidden; */
+        // /* backface-visibility: hidden; */
     }
     &--sub {
         @include respond(phone) {
             letter-spacing: 0.5rem;
         }
         display: block;
-        font-size: 1.9rem;
+        font-size: 2.2rem;
         font-weight: 400;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.3rem;
         animation: rightIn 0.75s ease-out;
         /* backface-visibility: hidden; */
     }

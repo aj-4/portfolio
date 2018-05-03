@@ -8,10 +8,12 @@
     z-index: 9999;
     opacity: 0;
     visibility: hidden;
+    display: none;
     transition: all .3s;
 
     &:target {
         opacity: 1;
+        display: block;
         visibility: visible;
     }
 
@@ -122,4 +124,19 @@
         background-image: linear-gradient(to right bottom, $color-card-4-primary, $color-card-4-secondary);    
         color: white;    
     }
+     &__header-5 {
+         background-image: linear-gradient(to right bottom, $color-card-6-primary, $color-card-6-secondary);
+         background-clip: text;
+         -webkit-background-clip: text;
+         color: transparent;
+         &:hover {
+             transform: skewX(2deg) skewY(1deg);
+             text-shadow: 1rem 1rem 2rem rgba($color-black, .2);
+         }
+     }
+
+     &__btn-5 {
+         background-image: linear-gradient(to right bottom, $color-card-6-primary, $color-card-6-secondary);
+         color: white;
+     }
 }

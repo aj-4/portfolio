@@ -2,6 +2,7 @@
 
     perspective: 150rem;
     -moz-perspective: 150rem;
+    -webkit-perspective: 150rem;
     position: relative;
     height: 40rem;    
 
@@ -24,7 +25,7 @@
             background-color: $color-white;
         }
         &--back {
-            transform: rotateY(180deg) ;
+            transform: rotateY(180deg);
 
             &-1 {
                 background-image: linear-gradient(to right bottom, $color-card-1-primary, $color-card-1-secondary);
@@ -38,14 +39,20 @@
             &-4 {
                 background-image: linear-gradient(to right bottom, $color-card-4-primary, $color-card-4-secondary);
             }
+            &-5 {
+                background-image: linear-gradient(to right bottom, $color-card-5-primary, $color-card-5-secondary);
+            }
+            &-6 {
+                background-image: linear-gradient(to right bottom, $color-card-6-primary, $color-card-6-secondary);
+            }
         }
     }
 
     &:hover &__side--front {
-        transform: rotateY(-180deg)
+        transform: rotateY(-180deg);
     }
     &:hover &__side--back {
-        transform: rotateY(0deg)
+        transform: rotateY(0deg);
     }
 
     //FRONT SIDE STYLE
@@ -54,6 +61,7 @@
         background-position: center center;
         height: 12rem;
         background-blend-mode: screen;
+        -moz-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);        
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         
@@ -67,10 +75,16 @@
         }
         &--3 {
             background-image: linear-gradient(to right bottom, $color-card-3-primary, $color-card-3-secondary),
-            url(../img/dollar.jpg);
+            url(../img/chatbg.png);
         }
         &--4 {
             background-image: linear-gradient(to right bottom, $color-card-4-primary, $color-card-4-secondary), url(../img/food.png);
+        }
+        &--5 {
+            background-image: linear-gradient(to right bottom, $color-card-5-primary, $color-card-5-secondary), url(../img/dollar.jpg);
+        }
+        &--6 {
+            background-image: linear-gradient(to right bottom, $color-card-6-primary, $color-card-6-secondary), url(../img/office-hall.jpg);
         }
     }
 
@@ -90,6 +104,7 @@
     &__heading-span {
         padding: 1rem 1.5rem;
         -webkit-box-decoration-break: clone;
+        -moz-box-decoration-break: clone;
         box-decoration-break: clone;
         &--1 {
             background-image: linear-gradient(to right bottom, rgba($color-card-1-primary, .9), rgba($color-card-1-secondary, .9));
@@ -102,6 +117,12 @@
         }
         &--4 {
             background-image: linear-gradient(to right bottom, rgba($color-card-4-primary, .9), rgba($color-card-4-secondary, .9));
+        }
+        &--5 {
+            background-image: linear-gradient(to right bottom, rgba($color-card-5-primary, .9), rgba($color-card-5-secondary, .9));
+        }
+        &--6 {
+            background-image: linear-gradient(to right bottom, rgba($color-card-6-primary, .9), rgba($color-card-6-secondary, .9));
         }
     }
 
@@ -154,8 +175,8 @@
         }
 
         &-3 {
-            width: 20%;
-            top: 5%;
+            width: 18%;
+            top: 7%;
             left: 7%;
         }
 
@@ -163,6 +184,17 @@
             top: 0%;
             left: -10%;
             width: 30%;
+        }
+
+        &-5 {
+            top: 2%;
+            left: -4%;
+            width: 25%;
+        }
+        &-6 {
+            top: 5%;
+            left: 0%;
+            width: 35%;
         }
     }
 
